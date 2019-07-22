@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		184AE30322E587B700F15BFD /* person.m in Sources */ = {isa = PBXBuildFile; fileRef = 184AE30222E587B700F15BFD /* person.m */; };
 		1D6885FF5C16F002A6DA223F /* libPods-Espressos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC62060C4B25AB073AB37813 /* libPods-Espressos.a */; };
 		26063FDBA7D33D854ADA59A6 /* libPods-TTTAttributedLabelTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0D54BD96951F3D9A1C3571 /* libPods-TTTAttributedLabelTests.a */; };
 		E957D6671B2F9A1800090F1E /* AppTestDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E957D6661B2F9A1800090F1E /* AppTestDelegate.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		184AE30122E587B700F15BFD /* person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = person.h; sourceTree = "<group>"; };
+		184AE30222E587B700F15BFD /* person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = person.m; sourceTree = "<group>"; };
 		303C95C3781F009515748AB3 /* Pods-Espressos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Espressos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Espressos/Pods-Espressos.debug.xcconfig"; sourceTree = "<group>"; };
 		3D0D54BD96951F3D9A1C3571 /* libPods-TTTAttributedLabelTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TTTAttributedLabelTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		736D64608B28383ED22CCBC6 /* Pods-Espressos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Espressos.release.xcconfig"; path = "Pods/Target Support Files/Pods-Espressos/Pods-Espressos.release.xcconfig"; sourceTree = "<group>"; };
@@ -124,6 +127,8 @@
 		F877A35113782AF10022A8AB = {
 			isa = PBXGroup;
 			children = (
+				184AE30122E587B700F15BFD /* person.h */,
+				184AE30222E587B700F15BFD /* person.m */,
 				E9B3C6F51A32C5B100D43DF9 /* Images.xcassets */,
 				F877A36613782AF10022A8AB /* Classes */,
 				E9B3C6E81A32C2DB00D43DF9 /* TTTAttributedLabelTests */,
@@ -409,6 +414,7 @@
 				E957D6671B2F9A1800090F1E /* AppTestDelegate.m in Sources */,
 				F8C05AA81657170A00B0ACDD /* AttributedTableViewCell.m in Sources */,
 				F8C05AAD1657171400B0ACDD /* DetailViewController.m in Sources */,
+				184AE30322E587B700F15BFD /* person.m in Sources */,
 				F8C05AAE1657171400B0ACDD /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
